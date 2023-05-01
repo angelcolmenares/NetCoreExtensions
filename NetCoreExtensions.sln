@@ -3,18 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreExtensions", "src\NetCoreExtensions\NetCoreExtensions.csproj", "{069E02BC-8D72-4EA6-8078-2540DDE55480}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreExtensions", "src\NetCoreExtensions\NetCoreExtensions.csproj", "{069E02BC-8D72-4EA6-8078-2540DDE55480}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimalEndpoint.Demo", "demos\MinimalEndpoint.Demo\MinimalEndpoint.Demo.csproj", "{A3CF5126-7C9C-4E8D-AC5D-E57255D3A809}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution		
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{069E02BC-8D72-4EA6-8078-2540DDE55480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{069E02BC-8D72-4EA6-8078-2540DDE55480}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{069E02BC-8D72-4EA6-8078-2540DDE55480}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{069E02BC-8D72-4EA6-8078-2540DDE55480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3CF5126-7C9C-4E8D-AC5D-E57255D3A809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3CF5126-7C9C-4E8D-AC5D-E57255D3A809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3CF5126-7C9C-4E8D-AC5D-E57255D3A809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3CF5126-7C9C-4E8D-AC5D-E57255D3A809}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
